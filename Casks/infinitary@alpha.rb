@@ -51,14 +51,9 @@ cask "infinitary@alpha" do
     https://discord.gg/Wsy2NpnZDu
 
     This is the alpha channel: new versions sooner, with lighter checks,
-    and every newer stable version too. To return to the stable channel,
-    keeping your saved work in place:
+    and every newer stable version too. There is no stable channel to
+    switch to yet.
 
-      brew uninstall --cask infinitary@alpha
-      brew install --cask infinitary-labs/tap/infinitary
-
-    If that stable version cannot open work saved by a newer alpha, it says
-    so and changes nothing; reinstall the alpha or wait for the next stable.
-    Never add --zap when switching: it deletes your saved work.
+    Never add --zap when uninstalling: it deletes your saved work.
   EOS
 end
