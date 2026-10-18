@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "targets": {
     "alpha": {
-      "version": "0.4.2-alpha.3",
-      "releaseUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/tag/infinitary-alpha-v0.4.2-alpha.3",
-      "downloadUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.4.2-alpha.3/Infinitary-0.4.2-alpha.3-universal.zip",
-      "sha256": "3a9d9c1cac0d5a21567c2992e811b6142498903043b056b9610aa3e1dc0276e9",
-      "sourceCommit": "055f305149393205f154159d2be39db3b50732ef"
+      "version": "0.4.2-alpha.4",
+      "releaseUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/tag/infinitary-alpha-v0.4.2-alpha.4",
+      "downloadUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.4.2-alpha.4/Infinitary-0.4.2-alpha.4-universal.zip",
+      "sha256": "fe61cce658f04d00b1b9c500c29f18b247936eee8830760365e20121934fc014",
+      "sourceCommit": "289618a7d22f7e74f9cb48da7040bea8acbcfed5"
     }
   }
 }
