@@ -2,45 +2,45 @@
   "schemaVersion": 1,
   "channels": {
     "alpha": {
-      "version": "0.4.2-alpha.4",
-      "releaseUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/tag/infinitary-alpha-v0.4.2-alpha.4",
-      "sourceCommit": "289618a7d22f7e74f9cb48da7040bea8acbcfed5",
+      "version": "0.5.0-alpha.5",
+      "releaseUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/tag/infinitary-alpha-v0.5.0-alpha.5",
+      "sourceCommit": "f7f20db062f8b44bb2a9af6cf888db0b331d0468",
       "systems": {
         "macos": {
           "arm64": {
             "zip": {
-              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.4.2-alpha.4/Infinitary-0.4.2-alpha.4-universal.zip",
-              "sha256": "fe61cce658f04d00b1b9c500c29f18b247936eee8830760365e20121934fc014"
+              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.5.0-alpha.5/Infinitary-0.5.0-alpha.5-universal.zip",
+              "sha256": "5914ad4ba15ec2e025a534d90426105ef135088e39202b47283eda209e4d93ab"
             }
           },
           "x64": {
             "zip": {
-              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.4.2-alpha.4/Infinitary-0.4.2-alpha.4-universal.zip",
-              "sha256": "fe61cce658f04d00b1b9c500c29f18b247936eee8830760365e20121934fc014"
+              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.5.0-alpha.5/Infinitary-0.5.0-alpha.5-universal.zip",
+              "sha256": "5914ad4ba15ec2e025a534d90426105ef135088e39202b47283eda209e4d93ab"
             }
           }
         },
         "linux": {
           "x64": {
             "deb": {
-              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.4.2-alpha.4/infinitary-0.4.2-alpha.4-linux-amd64.deb",
-              "sha256": "43021abe751b912ceec7e5fa55f67b3c08ceb8a75b22798ed941e9583768d457"
+              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.5.0-alpha.5/infinitary-0.5.0-alpha.5-linux-amd64.deb",
+              "sha256": "92019eafaa6516183ec07351e01c7254c86b2d59c0b72039a468c8d0648b0ba8"
             },
             "rpm": {
-              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.4.2-alpha.4/infinitary-0.4.2-alpha.4-linux-x86_64.rpm",
-              "sha256": "cc82618cd0cd2cef65776bed12f776bbdd889eb64e137388057cd3995bafa5e4"
+              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.5.0-alpha.5/infinitary-0.5.0-alpha.5-linux-x86_64.rpm",
+              "sha256": "61a8ea3a9300b2b2df345219a8f1fbb046c51ab6634676dc1ef08d4305650667"
             },
             "appimage": {
-              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.4.2-alpha.4/infinitary-0.4.2-alpha.4-linux-x86_64.AppImage",
-              "sha256": "9f3f6b01118721b068cf493a25e144c9906af4de5f666109447c24bca3d339e2"
+              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.5.0-alpha.5/infinitary-0.5.0-alpha.5-linux-x86_64.AppImage",
+              "sha256": "28cde92aa523eebd7231986fbc936a2f107f2b9a8d3a9dce65b838e7e3b60ec3"
             },
             "arch": {
-              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.4.2-alpha.4/infinitary-alpha-bin-0.4.2-alpha.4.PKGBUILD",
-              "sha256": "419016e6ea653ca7d3d1bd3a4197c127421329b040b87cae5f295ac5b7f98e92"
+              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.5.0-alpha.5/infinitary-alpha-bin-0.5.0-alpha.5.PKGBUILD",
+              "sha256": "b11684fc3f080966c2421f56e53f625abec8b5f2a55d9800f7e68d6425a71349"
             },
             "nix": {
-              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.4.2-alpha.4/infinitary-alpha-0.4.2-alpha.4.nix",
-              "sha256": "94d93637dd7accba763a644f629b2ecf0441386a58f7e72a0240d4cc51b37ccf"
+              "url": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.5.0-alpha.5/infinitary-alpha-0.5.0-alpha.5.nix",
+              "sha256": "147e9249d2827bc1b8fdafd6eca91e3a54c61b997e51d4a50d0f0b2ffe406d67"
             }
           }
         }
