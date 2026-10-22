@@ -1,8 +1,8 @@
 cask "infinitary@alpha" do
-  version "0.5.0-alpha.10"
-  sha256 "4c344e44976eada997f2dfd888c8d117f44350e0c288390819c0deae088eb621"
+  version "0.5.0"
+  sha256 "fac9132d4d5a97fce02a3646a2364eae4abc04bec7516b7191df4f5624dbe8b1"
 
-  url "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v#{version}/Infinitary-#{version}-universal.zip"
+  url "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-v#{version}/Infinitary-#{version}-universal.zip"
   name "Infinitary Alpha"
   desc "Calm desktop first mate that runs AI crew on your own subscriptions"
   homepage "https://github.com/infinitary-labs/homebrew-tap"
@@ -51,9 +51,14 @@ cask "infinitary@alpha" do
     https://discord.gg/Wsy2NpnZDu
 
     This is the alpha channel: new versions sooner, with lighter checks,
-    and every newer stable version too. There is no stable channel to
-    switch to yet.
+    and every newer stable version too. To return to the stable channel,
+    keeping your saved work in place:
 
-    Never add --zap when uninstalling: it deletes your saved work.
+      brew uninstall --cask infinitary@alpha
+      brew install --cask infinitary-labs/tap/infinitary
+
+    If that stable version cannot open work saved by a newer alpha, it says
+    so and changes nothing; reinstall the alpha or wait for the next stable.
+    Never add --zap when switching: it deletes your saved work.
   EOS
 end
