@@ -5,7 +5,7 @@ cask "infinitary@alpha" do
   url "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-v#{version}/Infinitary-#{version}-universal.zip"
   name "Infinitary Alpha"
   desc "Calm desktop first mate that runs AI crew on your own subscriptions"
-  homepage "https://github.com/infinitary-labs/homebrew-tap"
+  homepage "https://getinfinitary.com/"
 
   conflicts_with cask: "infinitary"
   depends_on macos: :ventura
