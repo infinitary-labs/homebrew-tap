@@ -18,11 +18,27 @@ cask "infinitary@alpha" do
                  "{\"schemaVersion\":1,\"channel\":\"alpha\"}\n",
                  base: :home
     end
+    preflight_steps do
+      ownership = { args: ["-w", "com.getinfinitary.installation",
+                           "1:homebrew:infinitary-labs/tap/infinitary@alpha",
+                           "{{staged_path}}/Infinitary.app/Contents/Info.plist"] }
+      if Homebrew::InstallSteps::DSL.instance_method(:run).parameters.include?([:key, :writable_paths])
+        ownership[:writable_paths] = ["Infinitary.app/Contents/Info.plist"]
+        ownership[:writable_base] = :staged_path
+      end
+      run "/usr/bin/xattr", **ownership
+    end
   else
     postflight do
       marker = File.expand_path("~/Library/Application Support/infinitary/update-channel.json")
       FileUtils.mkdir_p File.dirname(marker)
       File.write marker, "{\"schemaVersion\":1,\"channel\":\"alpha\"}\n"
+    end
+    preflight do
+      system_command "/usr/bin/xattr", args:         ["-w", "com.getinfinitary.installation",
+                                                      "1:homebrew:infinitary-labs/tap/infinitary@alpha",
+                                                      staged_path.join("Infinitary.app/Contents/Info.plist")],
+                                       must_succeed: true
     end
   end
 
