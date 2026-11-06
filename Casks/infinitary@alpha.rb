@@ -1,6 +1,6 @@
 cask "infinitary@alpha" do
-  version "0.6.3-alpha.191"
-  sha256 "a743a0873fff2dc5554134105697e67152955b770fd996c94ffc4bf7238f12b8"
+  version "0.6.3-alpha.195"
+  sha256 "cc8a89236a710845e7831c8ba6f3576b9969d5218029f734034b63816fccf4bc"
 
   url "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v#{version}/Infinitary-#{version}-universal.zip"
   name "Infinitary Alpha"
@@ -57,15 +57,14 @@ cask "infinitary@alpha" do
     stays stable from one build to the next. It runs entirely on your Mac
     against the subscriptions you already pay for. The one thing it sends back
     is anonymous diagnostics: a fixed set of usage events - the app opening, a
-    first mate turn finishing or failing, and how far first-time setup has come,
-    plus, from an iPhone or iPad paired to it, the phone app opening, being set
-    up, sending a message and answering a card - each with the app version and a
-    random install ID that is tied to nothing about you and resets whenever
-    Diagnostics is turned off and back on, and never anything you typed, so Kun
-    can see how many people use the alpha and where setup gets stuck; the app
-    tells you on its first launch, and the Diagnostics switch in Settings turns
-    it off. The source and its license follow at the public beta. Feedback is
-    welcome on Kun's Discord: https://discord.gg/Wsy2NpnZDu
+    first mate turn finishing or failing, and how far first-time setup has come
+    - each with the app version and a random install ID that is tied to nothing
+    about you and resets whenever Diagnostics is turned off and back on, and
+    never anything you typed, so Kun can see how many people use the alpha and
+    where setup gets stuck; the app tells you on its first launch, and the
+    Diagnostics switch in Settings turns it off. The source and its license
+    follow at the public beta. Feedback is welcome on Kun's Discord:
+    https://discord.gg/Wsy2NpnZDu
 
     This is the alpha channel: new versions sooner, with lighter checks,
     and every newer stable version too. To return to the stable channel,
