@@ -1,6 +1,6 @@
 cask "infinitary" do
-  version "0.6.5"
-  sha256 "cf78d70d6fab708811a5daba20748f630fe356ae7a692d5e2fc339b74beb7091"
+  version "0.7.0"
+  sha256 "b8a82c3a3a32093146d834ad2db0fd42b71ecaed428320d54670b16283f28405"
 
   url "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-v#{version}/Infinitary-#{version}-universal.zip"
   name "Infinitary"
