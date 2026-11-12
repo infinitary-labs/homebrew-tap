@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "starters": {
+    "openai-codex": {
+      "gpt-6-astra": ["premium"],
+      "gpt-6.1-sol": ["high"],
+      "gpt-6.1-terra": ["medium"],
+      "gpt-6-luna": ["low"]
+    },
+    "xai": {
+      "grok-4.7": ["medium"]
+    },
+    "anthropic-claude": {
+      "claude-fable-5-2": ["premium"],
+      "claude-opus-5-5": ["high"],
+      "claude-sonnet-5-5": ["medium"],
+      "claude-haiku-5-5": ["low"]
+    },
+    "kimi-coding": {
+      "k3": ["high"],
+      "kimi-for-coding": ["medium"]
+    },
+    "github-copilot": {
+      "claude-fable-5.1": ["premium"],
+      "claude-opus-5.5": ["high"],
+      "claude-sonnet-5.5": ["medium"]
+    }
+  }
+}
