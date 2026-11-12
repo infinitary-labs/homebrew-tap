@@ -65,8 +65,7 @@ cask "infinitary" do
     Infinitary Labs, Inc. can see how many people use the alpha and where setup
     gets stuck; the app tells you on its first launch, and the Diagnostics
     switch in Settings turns it off. The source and its license follow at the
-    public beta. Feedback is welcome on the Infinitary Discord:
-    https://discord.gg/Wsy2NpnZDu
+    public beta. Feedback is welcome on Discord: https://discord.gg/Wsy2NpnZDu
 
     This is the stable channel. To get new versions sooner, with lighter
     checks, switch to the alpha channel; your saved work stays in place:
