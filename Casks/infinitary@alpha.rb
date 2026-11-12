@@ -1,6 +1,6 @@
 cask "infinitary@alpha" do
-  version "0.7.1-alpha.554"
-  sha256 "68ff4db6a9a4cd6a781438e96dea9ea5cbf52524a766733ec5a5d6d855e285f0"
+  version "0.7.1-alpha.555"
+  sha256 "b926c3223770664ae9be9e64f43344d5b1e0173d8edd54ebb7b205b3470896d8"
 
   url "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v#{version}/Infinitary-#{version}-universal.zip"
   name "Infinitary Alpha"
@@ -65,7 +65,8 @@ cask "infinitary@alpha" do
     Infinitary Labs, Inc. can see how many people use the alpha and where setup
     gets stuck; the app tells you on its first launch, and the Diagnostics
     switch in Settings turns it off. The source and its license follow at the
-    public beta. Feedback is welcome on Discord: https://discord.gg/Wsy2NpnZDu
+    public beta. Feedback is welcome on the Infinitary Discord:
+    https://discord.gg/Wsy2NpnZDu
 
     This is the alpha channel: new versions sooner, with lighter checks,
     and every newer stable version too. To return to the stable channel,
