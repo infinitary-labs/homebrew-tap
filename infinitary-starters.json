@@ -2,8 +2,8 @@
   "schema": 1,
   "starters": {
     "openai-codex": {
-      "gpt-6-astra": ["premium"],
-      "gpt-6.1-sol": ["high"],
+      "gpt-6.2-astra": ["premium"],
+      "gpt-6.2-sol": ["high"],
       "gpt-6.1-terra": ["medium"],
       "gpt-6-luna": ["low"]
     },
