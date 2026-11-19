@@ -63,8 +63,9 @@ cask "infinitary@alpha" do
     nothing about you and resets whenever Diagnostics is turned off and back on,
     and never anything you typed, so Infinitary Labs, Inc. can see how many
     people use the alpha and where setup gets stuck; the app tells you on its
-    first launch, and the Diagnostics switch in Settings turns it off. The
-    source and its license are at
+    first launch, and the Diagnostics switch in Settings turns it off.
+    MIT-licensed builds include their license in the app bundle. The public home
+    for Infinitary’s source code and releases is
     https://github.com/infinitary-labs/infinitary-apps. The privacy policy is at
     https://getinfinitary.com/privacy. Feedback is welcome on Discord:
     https://discord.gg/Wsy2NpnZDu
