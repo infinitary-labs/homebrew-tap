@@ -55,20 +55,23 @@ cask "infinitary" do
     Infinitary is in alpha: a pre-release build, provided as is, with no
     warranty and no promise that anything stays stable from one build to the
     next. It runs entirely on your Mac against the subscriptions you already pay
-    for. The one thing it sends back is anonymous diagnostics: a fixed set of
-    usage events - the app opening, a first mate turn finishing or failing, and
-    how far first-time setup has come, plus, from an iPhone or iPad paired to
-    it, the phone app opening, being set up, sending a message and answering a
-    card - each with the app version and a random install ID that is tied to
-    nothing about you and resets whenever Diagnostics is turned off and back on,
-    and never anything you typed, so Infinitary Labs, Inc. can see how many
-    people use the alpha and where setup gets stuck; the app tells you on its
-    first launch, and the Diagnostics switch in Settings turns it off.
-    MIT-licensed builds include their license in the app bundle. The public home
-    for Infinitary’s source code and releases is
-    https://github.com/infinitary-labs/infinitary-apps. The privacy policy is at
-    https://getinfinitary.com/privacy. Feedback is welcome on Discord:
-    https://discord.gg/Wsy2NpnZDu
+    for. It sends back two things. The first is anonymous diagnostics: a fixed
+    set of usage events - the app opening, a first mate turn finishing or
+    failing, and how far first-time setup has come, plus, from an iPhone or iPad
+    paired to it, the phone app opening, being set up, sending a message and
+    answering a card - each with the app version and a random install ID that is
+    tied to nothing about you and resets whenever Diagnostics is turned off and
+    back on, and never anything you typed, so Infinitary Labs, Inc. can see how
+    many people use the alpha and where setup gets stuck; the app tells you on
+    its first launch, and the Diagnostics switch in Settings turns it off. The
+    second goes whatever Diagnostics says: a copy that checks Infinitary’s
+    download server for updates also tells Infinitary Labs, Inc. on that check
+    whether it already checked that day and that month, with no ID, so it can
+    count the computers using Infinitary. MIT-licensed builds include their
+    license in the app bundle. The public home for Infinitary’s source code and
+    releases is https://github.com/infinitary-labs/infinitary-apps. The privacy
+    policy is at https://getinfinitary.com/privacy. Feedback is welcome on
+    Discord: https://discord.gg/Wsy2NpnZDu
 
     This is the stable channel. To get new versions sooner, with lighter
     checks, switch to the alpha channel; your saved work stays in place:
