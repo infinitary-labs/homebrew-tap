@@ -1,8 +1,8 @@
 cask "infinitary@alpha" do
-  version "0.8.11-alpha.63"
-  sha256 "18134f8dea189be521163e4b4d98047f7e52d96ca89e0b249946a73ebb59a84f"
+  version "0.8.11"
+  sha256 "1dbc4f8089864d4b963d8bbfd3bd0dd01f59d93257e0a787ba95686968a6cdfa"
 
-  url "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v#{version}/Infinitary-#{version}-universal.zip"
+  url "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-v#{version}/Infinitary-#{version}-universal.zip"
   name "Infinitary Alpha"
   desc "Calm desktop first mate that runs AI crew on your own subscriptions"
   homepage "https://getinfinitary.com/"
