@@ -9,11 +9,11 @@
       "sourceCommit": "fc9616c24407003d78694fc64b9bca8deb981e09"
     },
     "alpha": {
-      "version": "0.8.13-alpha.82",
-      "releaseUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/tag/infinitary-alpha-v0.8.13-alpha.82",
-      "downloadUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.8.13-alpha.82/Infinitary-0.8.13-alpha.82-universal.zip",
-      "sha256": "eacd7639b79404bc5fa44faa4b2e7bc2f208fcf54bc3ec3840a2af8f1064c3e3",
-      "sourceCommit": "6b007ac063f81dba72414df0edd18890c5c875a0"
+      "version": "0.8.13-alpha.83",
+      "releaseUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/tag/infinitary-alpha-v0.8.13-alpha.83",
+      "downloadUrl": "https://github.com/infinitary-labs/homebrew-tap/releases/download/infinitary-alpha-v0.8.13-alpha.83/Infinitary-0.8.13-alpha.83-universal.zip",
+      "sha256": "5c0550ef50ed8e162cb2bafeb70fb4b2f446dfc7e989c7f60645c801a07c8eae",
+      "sourceCommit": "47b2261d94d66d0f502d27d6295bd7ff020e0c1b"
     }
   }
 }
